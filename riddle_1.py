@@ -1,4 +1,3 @@
-import math
 import mpmath as ap
 
 ap.mp.dps = 30
