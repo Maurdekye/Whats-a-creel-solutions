@@ -148,12 +148,12 @@ def findfibpattern(digit, patternsize=20, periods=2):
         break
   print()
 
-# lets test it with the first 3 digits
+# lets test it with digits 2-4
 #findfibpattern(1)
 #findfibpattern(2)
 #findfibpattern(3)
 
-# now for the remaining 10 digits
+# now for the remaining 6 digits
 # this may also be slow
 
 for i in range(1, 11):
@@ -176,6 +176,6 @@ for i in range(1, 11):
 
 # ...150000.
 
-# that was only the fourth digit.
+# that was only the fifth digit.
 # i'm starting to think this would have been easier the original way.
 # at this point it would probably be too slow to calculate the nth digits just by these repetitions
